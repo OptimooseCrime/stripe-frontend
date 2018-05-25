@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://js.stripe.com/v3/"></script>
+  </head>
+  <body>
+    <header>
+      <h1>galvanize</h1>
+    </header>
+    <main>
+        <form id="payment-form">
+          <div class="form-row">
+            <label for="card-element">
+              Credit or debit card
+            </label>
+            <div id="card-element">
+              <!-- A Stripe Element will be inserted here. -->
+            </div>
+        
+            <!-- Used to display Element errors. -->
+            <div id="card-errors" role="alert"></div>
+          </div>
+        
+          <button>Submit Payment</button>
+        </form>
+      <section>
+        <h2>Pay Your Bill</h2>
+        <div action="https://powerful-fortress-11741.herokuapp.com/charge" method="POST" class="form-wrapper">
+      </section>
+      <script>
+      </script>
+
+
+
+
+
+
+      <!-- <form action="your-server-side-code" method="POST">
+        <script
+          src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+            data-key="pk_test_xZ2tGSI5jjUP9AevbeAOUcaT"
+            data-amount="999"
+            data-name="Stripe.com"
+            data-description="Widget"
+            data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+            data-locale="auto"
+            data-zip-code="true">
+        </script>
+      </form> -->
+        </div>
+      </section>
+
+    </main>
+    <script src="./app.js"></script>
+
+  </body>
+</html>
+
+
+
